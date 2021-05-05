@@ -1,0 +1,189 @@
+body {
+  background-color: #fde8cd;
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  font-style: italic;
+  color: #184d47;
+  margin: 0;
+  font-size: 60px;
+  line-height: 2;
+}
+
+.phela {
+  background-color: #F5CEBE;
+  padding: 20px;
+  font-family: 'Sacramento', cursive;
+  font-size: 22px;
+  margin: 0 80px 0 80px;
+}
+
+.dusra {
+  background-color: #fde8cd;
+  height: 30px;
+  width: 1600px;
+  position: fixed;
+  top: 0;
+}
+
+h3 {
+  margin: 0;
+  margin-left: 200px;
+  font-size: 25px;
+}
+
+.teesra {
+  background-color: #d8e3e7;
+  padding: 20px;
+  margin: 0 80px 0 80px;
+}
+
+.pic {
+  height: 100px;
+  width: 100px;
+  margin-left: 350px;
+  border-radius: 100px;
+}
+
+.col {
+  width: 80%
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f4eee8;
+}
+
+li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.chautha {
+  background-color: #d8e3e7;
+  padding: 10px 40px 240px 20px;
+  text-align: center;
+  margin: 0 80px 0 80px;
+}
+
+.leaf1 {
+  width: 200px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.panch {
+  background-color: #f3f4ed;
+  text-align: center;
+  margin: 0 80px 0 80px;
+  padding: 10px;
+}
+
+.para1 {
+  font-size: 30px;
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 56px;
+  color: #045762;
+}
+
+.sixth {
+  background-color: #f3f4ed;
+  text-align: center;
+  margin: 0 80px 0 80px;
+  padding: 40px;
+}
+
+hr {
+  color: #fa9905;
+  border-top: dotted;
+  border-bottom: none;
+  width: 8%;
+  margin-top: 100px;
+}
+
+.eleven {
+  background-color: #025955;
+  margin: 0 80px 0 80px;
+  padding: 20px;
+}
+
+.copyright {
+  text-align: center;
+  color: #fcecdd;
+  font-size: 20px;
+}
+
+.btn {
+  background: #010203;
+  background-image: -webkit-linear-gradient(top, #010203, #2098e3);
+  background-image: -moz-linear-gradient(top, #010203, #2098e3);
+  background-image: -ms-linear-gradient(top, #010203, #2098e3);
+  background-image: -o-linear-gradient(top, #010203, #2098e3);
+  background-image: linear-gradient(to bottom, #010203, #2098e3);
+  -webkit-border-radius: 29;
+  -moz-border-radius: 29;
+  border-radius: 29px;
+  text-shadow: 1px 1px 3px #080e12;
+  font-family: arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 21px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #404d29;
+  background-image: -webkit-linear-gradient(top, #404d29, #1fc8f2);
+  background-image: -moz-linear-gradient(top, #404d29, #1fc8f2);
+  background-image: -ms-linear-gradient(top, #404d29, #1fc8f2);
+  background-image: -o-linear-gradient(top, #404d29, #1fc8f2);
+  background-image: linear-gradient(to bottom, #404d29, #1fc8f2);
+  text-decoration: none;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
